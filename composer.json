@@ -1,0 +1,19 @@
+{
+    "require-dev": {
+        "phpspec/phpspec": "*",
+        "behat/behat": "*",
+        "codeception/codeception": "*",
+        "codeception/module-phpbrowser": "*",
+        "codeception/module-asserts": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
